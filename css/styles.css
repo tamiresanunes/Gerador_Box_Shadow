@@ -43,7 +43,7 @@ h2 {
 }
 
 .range-input input[type="range"] {
-  -webkit-appearance: none;
+  -webkit-appearance: none;/*remove o efeito padrão*/
   width: 100%;
   height: 24px;
   background: #d3d3d3;
@@ -51,11 +51,11 @@ h2 {
 }
 
 .range-input input[type="range"]::-webkit-slider-thumb {
-  -webkit-appearance: none;
+  -webkit-appearance: none;/*remove o efeito padrão da bolinha*/
   appearance: none;
   width: 25px;
   height: 25px;
-  background: #e9d60a;
+  background: #7f4ca5;
   cursor: pointer;
 }
 
@@ -90,7 +90,7 @@ h2 {
 #box {
   width: 100%;
   height: 300px;
-  background-color: #e9d60a;
+  background-color: #7f4ca5;
 }
 
 /* Área de geração */
@@ -108,7 +108,7 @@ h2 {
   background-color: #d3d3d3;
   max-width: 900px;
   margin: 0 auto;
-  border: 2px solid #e9d60a;
+  border: 2px solid #7f4ca5;
   padding: 1rem;
   cursor: pointer;
   transition: 0.4s;
